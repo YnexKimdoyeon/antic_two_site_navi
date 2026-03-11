@@ -9,20 +9,20 @@ export const SITE_CONFIG = {
   // 테더아울렛 연락처
   // ------------------------------------------------------------------
   tether: {
-    channelTalk: "https://ch.io/YOUR_TETHER_CHANNEL",        // 채널톡 링크
-    openKakao: "https://open.kakao.com/YOUR_TETHER_LINK",    // 오픈카톡 링크
-    telegram: "https://t.me/YOUR_TETHER_TELEGRAM",           // 텔레그램 링크
-    phone: "010-0000-0000",                                   // 전화번호
+    channelTalk: "https://busancoin777.channel.io/home",        // 채널톡 링크
+    openKakao: "https://open.kakao.com/o/smykpxki",    // 오픈카톡 링크
+    telegram: "https://t.me/bscoin777",           // 텔레그램 링크
+    phone: "010-5670-1646",                                   // 전화번호
   },
 
   // ------------------------------------------------------------------
   // 온캐시아울렛 연락처
   // ------------------------------------------------------------------
   oncash: {
-    channelTalk: "https://ch.io/YOUR_ONCASH_CHANNEL",        // 채널톡 링크
-    openKakao: "https://open.kakao.com/YOUR_ONCASH_LINK",    // 오픈카톡 링크
-    telegram: "https://t.me/YOUR_ONCASH_TELEGRAM",           // 텔레그램 링크
-    phone: "010-0000-0000",                                   // 전화번호
+    channelTalk: "https://busancoin777.channel.io/home",        // 채널톡 링크
+    openKakao: "https://open.kakao.com/o/smykpxki",    // 오픈카톡 링크
+    telegram: "https://t.me/bscoin777",           // 텔레그램 링크
+    phone: "010-5670-1646",                                   // 전화번호
   },
 
   // ------------------------------------------------------------------
