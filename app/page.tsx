@@ -134,7 +134,7 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="border-t border-gray-100 py-6 px-4 text-center">
-        <p className="text-xs text-gray-400">© 2025 테더아울렛 · 온캐시아울렛. All rights reserved.</p>
+        <p className="text-xs text-gray-400">© 상품권성지. All rights reserved.</p>
       </footer>
     </main>
   )

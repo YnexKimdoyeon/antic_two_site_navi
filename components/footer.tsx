@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-          <p>© 2025 테더마켓. All rights reserved.</p>
+          <p>© 상품권성지. All rights reserved.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:text-foreground transition-colors">이용약관</a>
             <a href="#" className="hover:text-foreground transition-colors">개인정보처리방침</a>
