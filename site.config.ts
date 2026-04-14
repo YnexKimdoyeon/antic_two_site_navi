@@ -10,7 +10,7 @@ export const SITE_CONFIG = {
   // ------------------------------------------------------------------
   tether: {
     channelTalk: "https://busancoin777.channel.io/home",        // 채널톡 링크
-    openKakao: "https://open.kakao.com/o/smykpxki",    // 오픈카톡 링크
+    openKakao: "https://open.kakao.com/o/sOrrGmqi",    // 오픈카톡 링크
     telegram: "https://t.me/bscoin777",           // 텔레그램 링크
     phone: "010-5670-1646",                                   // 전화번호
   },
@@ -20,7 +20,7 @@ export const SITE_CONFIG = {
   // ------------------------------------------------------------------
   oncash: {
     channelTalk: "https://busancoin777.channel.io/home",        // 채널톡 링크
-    openKakao: "https://open.kakao.com/o/smykpxki",    // 오픈카톡 링크
+    openKakao: "https://open.kakao.com/o/sOrrGmqi",    // 오픈카톡 링크
     telegram: "https://t.me/bscoin777",           // 텔레그램 링크
     phone: "010-5670-1646",                                   // 전화번호
   },
