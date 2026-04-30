@@ -3,7 +3,7 @@ import { kvGet, kvSet, isKvConfigured } from "@/lib/kv"
 import { defaultPopupConfig, type PopupConfig } from "@/lib/popup-config"
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "tether123"
-const KV_KEY = "popup-config"
+const KV_KEY = "popup-config-tether-outlet"
 
 export async function GET() {
   const stored = await kvGet(KV_KEY)
