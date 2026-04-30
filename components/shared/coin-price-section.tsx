@@ -85,10 +85,7 @@ export default function CoinPriceSection() {
 
   const fetchCoinData = async () => {
     try {
-      const markets = MARKET_KEYS.join(",")
-      const response = await fetch(
-        `https://api.upbit.com/v1/ticker?markets=${markets}`
-      )
+      const response = await fetch("/api/coin-prices")
       if (!response.ok) {
         throw new Error("Failed to fetch coin data")
       }
