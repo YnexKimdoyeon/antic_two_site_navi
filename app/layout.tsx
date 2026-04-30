@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Noto_Sans_KR } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { PopupModal } from '@/components/popup-modal'
 import './globals.css'
 
 const notoSansKR = Noto_Sans_KR({
@@ -41,6 +42,7 @@ export default function RootLayout({
     <html lang="ko" className={`${notoSansKR.variable} light`} style={{ colorScheme: "light" }}>
       <body className="font-sans antialiased">
         {children}
+        <PopupModal />
         <Analytics />
       </body>
     </html>
