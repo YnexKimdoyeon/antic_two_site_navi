@@ -102,7 +102,7 @@ export default function CoinPriceSection() {
 
   useEffect(() => {
     fetchCoinData()
-    const interval = setInterval(fetchCoinData, 10000)
+    const interval = setInterval(fetchCoinData, 3600000) // 1시간
     return () => clearInterval(interval)
   }, [])
 
@@ -128,7 +128,7 @@ export default function CoinPriceSection() {
                   Top 코인 모니터
                 </h3>
                 <p className="text-xs text-foreground/60">
-                  10초마다 자동 업데이트됩니다.
+                  1시간마다 자동 업데이트됩니다.
                 </p>
               </div>
             </div>

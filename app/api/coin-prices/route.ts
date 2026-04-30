@@ -10,7 +10,7 @@ export async function GET() {
         headers: {
           Accept: "application/json",
         },
-        next: { revalidate: 10 },
+        next: { revalidate: 3600 },
       }
     )
 
