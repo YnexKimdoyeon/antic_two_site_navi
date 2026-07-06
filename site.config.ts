@@ -12,18 +12,13 @@ export const SITE_CONFIG = {
     channelTalk: "https://busancoin777.channel.io/home",        // 채널톡 링크
     openKakao: "https://open.kakao.com/o/sOrrGmqi",    // 오픈카톡 링크
     telegram: "https://t.me/bscoin777",           // 텔레그램 링크
-    phone: "010-5670-1646",                                   // 전화번호
+    phone: "010-2638-1646",                                   // 전화번호
   },
 
   // ------------------------------------------------------------------
   // 사업자 정보 (하단 푸터에 노출)
   // ------------------------------------------------------------------
   business: {
-    companyName: "상품권 성지",           // 상호명
-    ceo: "김상진",                         // 대표자
-    bizNumber: "394-04-03287",            // 사업자등록번호
-    address: "부산시 북구 백양대로1015번길34-32",   // 주소
-    email: "support@example.com",         // 이메일
     terms: "/terms",                      // 이용약관 링크 (외부 URL 또는 내부 경로)
     privacy: "/privacy",                  // 개인정보처리방침 링크
   },

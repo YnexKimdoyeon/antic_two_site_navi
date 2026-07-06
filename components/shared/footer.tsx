@@ -79,20 +79,8 @@ export default function Footer({ brand }: { brand: Brand }) {
           </div>
         </div>
 
-        {/* Business Info */}
-        <div className="border-t border-border pt-6 mb-4">
-          <p className="text-xs text-muted-foreground leading-6">
-            <span className="font-semibold text-foreground">{biz.companyName}</span>
-            {" · "}대표: {biz.ceo}
-            {" · "}사업자등록번호: {biz.bizNumber}
-            {" · "}주소: {biz.address}
-            <br />
-            이메일: <a href={`mailto:${biz.email}`} className="hover:text-foreground transition-colors">{biz.email}</a>
-          </p>
-        </div>
-
         {/* Copyright + Links */}
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-muted-foreground">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-muted-foreground border-t border-border pt-6">
           <p>{brand.copyright}</p>
           <div className="flex gap-4">
             <a href={biz.terms} className="hover:text-foreground transition-colors">이용약관</a>
