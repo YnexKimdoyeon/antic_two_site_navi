@@ -12,7 +12,7 @@ export const SITE_CONFIG = {
     channelTalk: "https://busancoin777.channel.io/home",        // 채널톡 링크
     openKakao: "https://open.kakao.com/o/sOrrGmqi",    // 오픈카톡 링크
     telegram: "https://t.me/bscoin777",           // 텔레그램 링크
-    phone: "010-2638-1646",                                   // 전화번호
+    phone: "010-2280-4526",                                   // 전화번호
   },
 
   // ------------------------------------------------------------------

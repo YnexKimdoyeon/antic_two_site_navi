@@ -40,7 +40,7 @@ export default function CtaSection() {
                 텔레그램 상담
               </a>
               <a
-                href="tel:02-0000-0000"
+                href="tel:010-2280-4526"
                 className="flex items-center gap-2 px-8 py-4 rounded-xl border border-border bg-white text-foreground font-bold hover:border-primary/40 hover:bg-secondary transition-all hover:scale-105"
               >
                 <Phone className="w-5 h-5" />
